@@ -1,0 +1,205 @@
+body {
+  padding: 0;
+  margin: 250px 0;
+  background-image: url("pin.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.form {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  gap: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 23%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 6px;
+}
+
+.form h1 {
+  font-size: 1.9rem;
+  color: black;
+  font-family: sans-serif;
+}
+
+select {
+  padding: 10px 80px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+select:hover,
+input:hover {
+  background-color: #cccccc;
+}
+
+input {
+  padding: 10px 80px;
+  border-radius: 50px;
+}
+
+.btn {
+  padding: 10px 150px;
+  border-radius: 50px;
+  color: white;
+  background-color: blue;
+  transition: 0.3s ease-in;
+}
+
+.btn:hover,
+.back:hover {
+  transform: translateY(-5px);
+  background-color: lightblue;
+  color: black;
+}
+
+a.btn {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.back {
+  padding: 10px 150px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+a.back {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 185px auto;
+    padding: 0;
+  }
+
+  .form {
+    width: 50%;
+  }
+
+  select {
+    padding: 10px 30px;
+  }
+
+  input {
+    padding: 10px 35px;
+  }
+
+  .btn {
+    padding: 10px 100px;
+  }
+
+  .back {
+    padding: 10px 90px;
+  }
+}
+
+@media (max-width: 932px) and (orientation: landscape) {
+  body {
+    margin: 50px auto;
+    height: 50vh;
+    padding: 0;
+  }
+
+  .form {
+    width: 40%;
+    padding: 15px;
+  }
+
+  select {
+    padding: 10px 45px;
+  }
+
+  input {
+    padding: 10px 50px;
+  }
+
+  .btn {
+    padding: 10px 113px;
+  }
+
+  .back {
+    padding: 10px 103px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pin.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 420px; /* ukuran ideal untuk laptop */
+    padding: 50px 45px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  }
+
+  .form h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  select,
+  input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+
+  .btn,
+  .back {
+    width: 100%;
+    padding: 14px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn {
+    background-color: blue;
+    color: white;
+  }
+
+  .back {
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  .btn:hover,
+  .back:hover {
+    transform: translateY(-4px);
+    background-color: lightblue;
+    color: black;
+  }
+
+  a.btn,
+  a.back {
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+  }
+}
