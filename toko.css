@@ -679,6 +679,7 @@ footer {
     height: auto;
     margin-left: 20px;
     margin-right: 20px;
+    border-left: 6px solid black;
   }
 
   .image img {
@@ -757,6 +758,13 @@ footer {
 
   .produk-item h2 {
     font-size: 19px;
+  }
+
+  .produk-item {
+    border-left: 6px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 15px;
   }
 
   /* Testimoni */
@@ -1013,3 +1021,4 @@ footer {
     margin-top: 60px;
   }
 }
+
