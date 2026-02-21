@@ -665,8 +665,9 @@ footer {
   }
 
   #hero a.button {
-    border-radius: 8px;
+    border-radius: 50px;
     padding: 13px 13px;
+    margin-left: 10px;
   }
 
   #hero h1 {
@@ -1029,5 +1030,6 @@ footer {
     margin-top: 60px;
   }
 }
+
 
 
